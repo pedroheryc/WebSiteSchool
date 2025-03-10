@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pessoa Júridica - Fornecedor</title>
+    <link rel="stylesheet" href="cadastro_fornecedor.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro Fornecedor</h1>
+        <form id="cadastroFornecedorForm">
+            <div class="form-group">
+                <input type="text" name="nome" placeholder="Nome *" required>
+                <input type="text" name="razaosocisl" placeholder="Razão Social *" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="cnpj" placeholder="CNPJ *" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="E-mail *" required>
+                <input type="password" name="senha" placeholder="Senha *" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="endereco" placeholder="Endereço *" required>
+                <input type="text" name="bairro" placeholder="Bairro *" required>
+                <input type="text" name="numero" placeholder="nº *" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="cidade" placeholder="Cidade *" required>
+                <input type="text" name="estado" placeholder="Estado *" required>
+            </div>
+            <button type="submit" class="btn">Cadastrar</button>
+        </form>
+    </div>
+    <script src="cadastro_fornecedor.js"></script>
+</body>
+</html>
